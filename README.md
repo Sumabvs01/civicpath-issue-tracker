@@ -13,3 +13,27 @@ CivicPath is a backend-driven issue tracking platform designed to organize issue
 - RESTful API design for scalable integration  
 
 ## Workflow
+User → Submit Issue → Assign → Track Progress → Resolve → Update Status
+## Tech Stack
+- Node.js  
+- Express.js  
+- MongoDB  
+
+## My Contribution
+- Translated user requirements into a structured backend system  
+- Designed APIs aligned with workflow-based issue tracking  
+- Implemented role-based logic for controlled access and updates  
+- Organized system flow to improve clarity and communication  
+
+## What I Learned
+- Breaking down real-world problems into system workflows  
+- Designing backend systems based on requirements  
+- Structuring data and processes for better maintainability
+  ```mermaid
+graph TD
+A[User] --> B[Submit Issue]
+B --> C[Assign Issue]
+C --> D[Track Progress]
+D --> E[Resolve]
+E --> F[Update Status]
+```
