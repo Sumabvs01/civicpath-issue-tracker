@@ -1,22 +1,15 @@
-# civicpath-issue-tracking
-# CivicPath
+# CivicPath – Issue Tracking Platform
 
-Backend platform for reporting and tracking issues.
+## Problem
+Many issue reporting systems lack clear workflows and structured tracking, making it difficult to manage updates, ownership, and resolution efficiently.
 
-## Features
-- Issue reporting and tracking
-- Role-based login
-- Basic workflow for updating issue status
+## Solution
+CivicPath is a backend-driven issue tracking platform designed to organize issue handling through structured workflows and role-based access.
 
-## Tech Stack
-- Node.js
-- Express.js
-- MongoDB
+## Key Features
+- Role-based access control for users and administrators  
+- Issue creation, assignment, and status tracking  
+- Structured issue lifecycle (report → assign → update → resolve)  
+- RESTful API design for scalable integration  
 
-## What I worked on
-- Built APIs for issue creation and updates
-- Designed basic data models
-- Implemented authentication
-
-## Status
-Student project (learning purpose)
+## Workflow
